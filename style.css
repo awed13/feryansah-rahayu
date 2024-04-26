@@ -76,7 +76,8 @@ body {
 }
 
 .mynavbar .nav-link {
-  text-transform: uppercase;
+  font-size: 2rem;
+  text-align: center;
 }
 
 .home {
@@ -90,7 +91,6 @@ body {
 
 .home h2,
 .info h2,
-.story h2,
 .gallery h2,
 .rsvp h2,
 .gifts h2 {
@@ -180,7 +180,6 @@ body {
   font-weight: 300;
 }
 
-.story,
 .gallery,
 .rsvp,
 .gifts {
@@ -188,7 +187,6 @@ body {
   padding-bottom: 8rem;
 }
 
-.story span,
 .gallery span,
 .gifts span {
   text-transform: uppercase;
@@ -199,7 +197,6 @@ body {
   margin-bottom: 1rem;
 }
 
-.story p,
 .gallery p,
 .rsvp p,
 .gifts p {
