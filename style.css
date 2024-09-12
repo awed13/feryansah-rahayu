@@ -1,5 +1,5 @@
 :root {
-  --pink: #f14e95;
+  --dark: #0a0a0a;
   --bg: #0a0a0a;
   --shadow: 0 2px 2px rgb(0 0 0 / 0.5);
 }
@@ -32,30 +32,33 @@ body {
 .hero h1,
 .hero h4,
 .hero p {
-  text-shadow: var(--shadow);
+  text-shadow: var(--dark);
 }
 
 .hero h1 {
   font-family: "Sacramento", cursive;
   font-size: 6rem;
+  color: var(--dark);
 }
 
 .hero h4 {
   font-size: 1.6rem;
+  color: var(--dark);
 }
 
 .hero p {
   font-size: 1.4rem;
+  color: var(--dark);
 }
 
 .hero a {
-  color: var(--pink);
+  color: var(--dark);
   background-color: white;
   box-shadow: var(--shadow);
 }
 
 .hero a:hover {
-  background-color: var(--pink);
+  background-color: var(--dark);
   color: white;
 }
 
@@ -94,7 +97,7 @@ body {
 .gallery h2,
 .rsvp h2,
 .gifts h2 {
-  color: var(--pink);
+  color: var(--dark);
   font-family: "Sacramento";
   font-size: 5rem;
   font-weight: bold;
@@ -118,7 +121,7 @@ body {
 .home .couple h3 {
   font-family: "Sacramento";
   font-size: 2.4rem;
-  color: var(--pink);
+  color: var(--dark);
 }
 
 .home .couple img {
@@ -139,7 +142,7 @@ body {
 
 .home .heart i {
   margin: auto;
-  color: var(--pink);
+  color: var(--dark);
 }
 
 .info {
@@ -322,31 +325,31 @@ body {
 }
 
 .rsvp button {
-  background-color: var(--pink);
+  background-color: var(--dark);
   color: white;
-  border: 1px solid var(--pink);
+  border: 1px solid var(--dark);
 }
 
 .rsvp button:hover {
   background-color: white;
-  color: var(--pink);
+  color: var(--dark);
   border: 1px solid white;
 }
 
 footer {
   padding: 3rem;
-  background-color: var(--pink);
+  background-color: var(--dark);
   color: white;
 }
 
 footer a {
-  color: var(--bg);
+  color: var(--white);
   font-weight: bold;
   text-decoration: none;
 }
 
 footer a:hover {
-  color: white;
+  color: rgb(7, 7, 7);
 }
 
 footer li {
